@@ -1,3 +1,3 @@
 This project was a shorter one but it was good practice for using the generate structure in verilog figuring out how I wanted to do the interanal connections took a little bit but showed some satifiying results.
 I've since found much more efficient ways of represting MUX like structures for various purposes, one example being a variable clock divider, by reffering to each index of the counter regester of a clock (Output = counter[select]) you can essentially carry out the same purpose of the a MUX taking inpunts from each bit of the register.
-This structure would be convienient for when you cannot simply refer to specific bits of a regester, and instead have many different wires.
+This structure would be convienient for when you cannot simply refer to specific bits of a regester, and instead have many different input wires.
